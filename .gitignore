@@ -1,0 +1,41 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Virtual environments
+env/
+venv/
+.venv/
+
+# VS Code / JetBrains
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# PyTorch checkpoints and large artifacts
+# Use Git LFS for large model files instead of committing them directly
+checkpoint/
+*.pt
+*.pth
+
+# Dataset / downloads
+data/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python wheel metadata
+pip-wheel-metadata/
